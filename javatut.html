@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>A complete Java tutorial</title>
+        <link rel="stylesheet" type="text/css" href="javatut.css">
+        <script type="text/javascript" src="javatut.js"></script>
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <script type="text/javascript" src="javatut.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <article id="welcpage">
+            <h1 style="text-align: center;font-size: 10vmin;font-family: 'Quicksand';user-select: none;">Welcome to Java World!</h1>
+            <p style="padding:0 5vmin 0 5vmin;text-align: center;font-size: 3vmin;font-family: 'Fahkwang';user-select: none;">The best place to learn for life and future.</p>
+          </article>
+        <nav id="navg">
+            <ul id="secs">
+              <li id="hm">Home</li>
+              <li id="abt">About</li>
+              <li id="doc">Docs</li>
+            </ul>
+        </nav>
+       <article id="abbt">
+            Hi! I'm Donna and i'm trying to help my people by sharing some required knowledge of Java which is essential for life and future.
+       </article>
+       <article id="dv2">
+            <section id="sec1"> <!--section 1-->
+              <h3>What is Java?</h3>
+              <p style="padding: 0 10vmin 0 10vmin;">Java is an object-oriented, cross platform, multi-purpose programming language produced by Sun Microsystems. 
+                First released in 1995, it was developed to be a machine independent web technology. 
+                It was based on C and C++ syntax to make it easy for programmers from those communities to learn. 
+                Since then, it has earned a prominent place in the world of computer programming.</p>
+            </section>
+            <section id="sec2"> <!--section 2-->
+              <h3>What is OOPs in Java?</h3>
+              <p style="padding: 0 10vmin 0 10vmin;">
+                  OOP concepts in Java are the main ideas behind Java’s Object Oriented Programming. 
+                  They are an abstraction, encapsulation, inheritance, and polymorphism. 
+                  Grasping them is key to understanding how Java works. 
+                  Basically, Java OOP concepts let us create working methods and variables, then re-use all or part of them without compromising security.
+              </p>
+            </section>
+            <section id="sec3"> <!--section 3-->
+              <h3>What is the basic?</h3>
+              <p style="padding: 0 10vmin 0 10vmin;">Every java program needs atleast one class which may have any name except the names like int, long, double, float, char, etc. 
+                These are all data types, also known as keywords, about which you will learn in this tutorial. 
+                The naming must not be done with the names of keywords and default class names of any package applied within a program.</p>
+            </section>
+            <section id="sec4"> <!--section 4-->
+              <h3>Why should i learn Java?</h3>
+              <p style="padding: 0 10vmin 0 10vmin;">The reason, which made Java popular is that it's an Object Oriented Programming language. 
+                Developing OOP application is much easier, and it also helps to keep system modular, flexible and extensible.
+                One more reason for Java programming language's huge success is it's Rich API and most importantly it's highly 
+                visible because come with Java installation.Java provides API for I/O, networking, utilities, XML parsing, database connection, 
+                and almost everything. Whatever left is covered by open source libraries like Apache Commons, Google Guava, Jackson, Gson, Apache POI, and others.</p>
+            </section>
+        </article>
+        <div id="btn">
+          <button id="bttn">Start Learning</button>
+        </div>
+        <div id="dcs"> <!--Docs-->
+          <ul class="ddcs">
+            <li class="intro">Introduction</li>
+            <li class="httry">History</li>
+            <li class="instt">Where to code?</li>
+            <li class="ooppp">About OOPs</li>
+            <ul>
+               <li>Class</li>
+               <li>Object</li>
+               <li>Polymorshism</li>
+               <li>Data Abstraction</li>
+               <li>Encapsulation</li>
+            </ul>
+            <li>Basic Concept</li>
+          </ul>
+        </div>
+        <div class="jva"> <!--intro-->
+           <h1 style="text-align: center;-webkit-text-fill-color: white;-webkit-text-stroke-color: rgb(0, 0, 0);-webkit-text-stroke-width:2px;font-size: 10vmin;">What is Java?</h1>
+           <p style="text-align: center;padding: 0 10vmin 0 10vmin;color: white;font-size: 2.5vmin;">
+            Java is a general-purpose computer-programming language that is concurrent, class-based, object-oriented, 
+            and specifically designed to have as few implementation dependencies as possible. It is intended to let application developers 
+            "write once, run anywhere" (WORA), meaning that compiled Java code can run on all platforms that support Java without the need for recompilation. 
+            Java applications are typically compiled to bytecode that can run on any Java virtual machine (JVM) regardless of computer architecture. 
+            As of 2016, Java is one of the most popular programming languages in use, particularly for client-server web applications, 
+            with a reported 9 million developers. Java was originally developed by James Gosling at Sun Microsystems 
+            (which has since been acquired by Oracle Corporation) and released in 1995 as a core component of Sun Microsystems' Java platform. 
+            The language derives much of its original features from SmallTalk, with a syntax similar to C and C++, but it has fewer low-level facilities 
+            than either of them.</p>
+            <div style="text-align: center;color: white;text-decoration: underline;user-select: none;">
+              <img style="width: 25vmax;height:17vmax;border-style:double;border-color: white;border-width: 5px;border-radius: 10px;" 
+            src="https://cdn.vox-cdn.com/thumbor/FDD76YJZJFPyNUfT3ZBHcnMA0Ec=/43x0:593x367/1200x800/filters:focal(43x0:593x367)/cdn.vox-cdn.com/uploads/chorus_image/image/48667835/dbgxt2rvpd26udoyzcqn.0.0.jpg" 
+            alt="Java logo"/><br>Java's Logo
+            </div>
+            <p style="text-align: center;padding: 0 10vmin 0 10vmin;color: white;font-size: 2.5vmin;">
+            The original and reference implementation Java compilers, virtual machines, and class libraries were originally released 
+            by Sun under proprietary licenses. As of May 2007, in compliance with the specifications of the Java Community Process, Sun relicensed most of 
+            its Java technologies under the GNU General Public License. Others have also developed alternative implementations of these Sun technologies, 
+            such as the GNU Compiler for Java (bytecode compiler), GNU Classpath (standard libraries), and IcedTea-Web (browser plugin for applets).<br><br>
+            The latest version is Java 11, released on September 25, 2018. Java 11 is a currently supported long-term support (LTS) version 
+            ("Oracle Customers will receive Oracle Premier Support"); Oracle released for the "legacy" Java 8 LTS the last "public update", 
+            which is free for commercial use, in January 2019. Oracle will still support Java 8 with public updates for personal use up to at least December 2020. 
+            Oracle (and others) "highly recommend that you uninstall older versions of Java",[23] because of serious risks due to unresolved security issues. 
+            Since Java 9 is no longer supported, Oracle advises its users to "immediately transition" to Java 11. Oracle extended support for Java 6 ended in December 2018.<br><br>
+           </p>
+        </div>
+        <div class="htry" style="padding-bottom:30px;"> <!--history-->
+           <h1 style="text-align: center;-webkit-text-fill-color: white;-webkit-text-stroke-color: rgb(0, 0, 0);-webkit-text-stroke-width:2px;font-size: 10vmin;">History</h1>
+           <p style="text-align: center;padding: 0 10vmin 0 10vmin;color: white;font-size: 2.5vmin;">
+            James Gosling, Mike Sheridan, and Patrick Naughton initiated the Java language project in June 1991. 
+            Java was originally designed for interactive television, but it was too advanced for the digital cable television industry at the time. 
+            The language was initially called Oak after an oak tree that stood outside Gosling's office. Later the project went by the name Green and was 
+            finally renamed Java, from Java coffee. Gosling designed Java with a C/C++-style syntax that system and application programmers would find familiar.<br>
+            <table style="text-align: center;margin: auto;color: white;user-select: none;">
+                <tr>
+                  <td><img style="width: 17vmax;height:15vmax;border-style:double;border-color: white;border-width: 5px;border-radius: 10px;"
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/James_Gosling_2008.jpg/330px-James_Gosling_2008.jpg" 
+                    alt="James A. Gosling"/><br>James A. Gosling</td>
+                    <td>
+                      <img style="width: 17vmax;height:15vmax;border-style:double;border-color: white;border-width: 5px;border-radius: 10px;"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTz5CTLWAP-iT4MBpXEtXUbZWkvs8QMl-wDA4PA1JwxqMyZE_Ul"
+                    alt="Mike Sheridan"/><br>Mike Sheridan
+                    </td>
+                    <td>
+                      <img style="width: 17vmax;height:15vmax;border-style:double;border-color: white;border-width: 5px;border-radius: 10px;"
+                    src="https://amlawdaily.typepad.com/.a/6a00e55044cbaf883401538eeb173b970b-320wi"
+                    alt="Patrick Naughton"/><br>Patrick Naughton
+                    </td>
+                </tr>
+            </table></p>
+            <p style="text-align: center;padding: 0 10vmin 0 10vmin;color: white;font-size: 2.5vmin;">
+            Sun Microsystems released the first public implementation as Java 1.0 in 1996. 
+            It promised "Write Once, Run Anywhere" (WORA), providing no-cost run-times on popular platforms. 
+            Fairly secure and featuring configurable security, it allowed network- and file-access restrictions. 
+            Major web browsers soon incorporated the ability to run Java applets within web pages, and Java quickly became popular. 
+            The Java 1.0 compiler was re-written in Java by Arthur van Hoff to comply strictly with the Java 1.0 language specification. 
+            With the advent of Java 2 (released initially as J2SE 1.2 in December 1998 – 1999), new versions had multiple configurations 
+            built for different types of platforms. J2EE included technologies and APIs for enterprise applications typically run in server environments, 
+            while J2ME featured APIs optimized for mobile applications. The desktop version was renamed J2SE. In 2006, for marketing purposes, 
+            Sun renamed new J2 versions as Java EE, Java ME, and Java SE, respectively.<br><br>
+            In 1997, Sun Microsystems approached the ISO/IEC JTC 1 standards body and later the Ecma International to formalize Java, 
+            but it soon withdrew from the process. Java remains a de facto standard, controlled through the Java Community Process. 
+            At one time, Sun made most of its Java implementations available without charge, despite their proprietary software status. 
+            Sun generated revenue from Java through the selling of licenses for specialized products such as the Java Enterprise System.<br><br>
+            On November 13, 2006, Sun released much of its Java virtual machine (JVM) as free and open-source software, (FOSS), under the terms of the 
+            GNU General Public License (GPL). On May 8, 2007, Sun finished the process, making all of its JVM's core code available under free software/open-source 
+            distribution terms, aside from a small portion of code to which Sun did not hold the copyright.<br><br>
+            Sun's vice-president Rich Green said that Sun's ideal role with regard to Java was as an "evangelist". 
+            Following Oracle Corporation's acquisition of Sun Micro-systems in 2009–10, Oracle has described itself as the "steward of Java technology with a 
+            relentless commitment to fostering a community of participation and transparency". This did not prevent Oracle from filing a lawsuit against 
+            Google shortly after that for using Java inside the Android SDK (see Google section below). Java software runs on everything from laptops to data 
+            centers, game consoles to scientific supercomputers. On April 2, 2010, James Gosling resigned from Oracle.<br><br>
+            In January 2016, Oracle announced that Java run-time environments based on JDK 9 will discontinue the browser plugin.
+           </p>
+           <hr>
+           <h3 style="text-align: center;color: white;font-size: 4.5vmin;-webkit-text-fill-color: white;-webkit-text-stroke-color: rgb(0, 0, 0);-webkit-text-stroke-width:1px;">Aims in the creation of the Java language</h3>
+           <ol style="padding: 0 10vmin 0 15vmin;color: white;font-size: 3vmin;">
+             <li>It must be "simple, object-oriented, and familiar".</li>
+             <li>It must be "robust and secure".</li>
+             <li>It must be "architecture-neutral and portable".</li>
+             <li>It must execute with "high performance".</li>
+             <li>It must be "interpreted, threaded, and dynamic".</li>
+           </ol>
+           <hr>
+           <h3 style="text-align: center;color: white;font-size: 4.5vmin;-webkit-text-fill-color: white;-webkit-text-stroke-color: rgb(0, 0, 0);-webkit-text-stroke-width:1px;">Versions</h3>
+           <table id="tbt" style="border-style: double;border-width: 5px;border-color: white;margin: auto;width: 25vmax;">
+             <tr style="text-align: center;font-size: 3vmin;-webkit-text-fill-color: white;-webkit-text-stroke-color: rgb(56, 23, 4);-webkit-text-stroke-width:1px;">
+             <td style="padding: 0 20px 0 20px;user-select: none;">Version Code</td><td style="padding: 0 20px 0 20px;user-select: none;">Released year</td>
+             </tr><tr><td>JDK 1.0</td><td>23<sup>rd</sup> January, 1996</td></tr><tr><td>JDK 1.1</td><td>19<sup>th</sup> February, 1997</td></tr>
+             <tr><td>J2SE 1.2</td><td>8<sup>th</sup> December, 1998</td></tr><tr><td>J2SE 1.3</td><td>8<sup>th</sup> May, 2000</td></tr><tr>
+             <td>J2SE 1.4</td><td>6<sup>th</sup> February, 2002</td></tr><tr><td>J2SE 5.0</td><td>30<sup>th</sup> September, 2004</td></tr><tr><td>Java SE 6</td>
+             <td>11<sup>th</sup> December, 2006</td></tr><tr><td>Java SE 7</td><td>28<sup>th</sup> July, 2011</td></tr><tr><td>Java SE 8</td>
+             <td>18<sup>th</sup> March, 2014</td></tr><tr><td>Java SE 9</td><td>21<sup>st</sup> September, 2017</td></tr><tr><td>Java SE 10</td>
+             <td>20<sup>th</sup> March, 2018</td></tr><tr><td>Java SE 11</td><td>25<sup>th</sup> September, 2018</td></tr>
+           </table>
+        </div>
+        <div class="inst"><!--Install java-->
+          <h1 style="text-align: center;-webkit-text-fill-color: white;-webkit-text-stroke-color: rgb(0, 0, 0);-webkit-text-stroke-width:2px;font-size: 10vmin;">Where to code Java?</h1>
+          <p style="text-align: center;padding: 0 10vmin 0 10vmin;color: white;font-size: 2.5vmin;">
+            If you want to practice Java then BlueJ is the best IDE (Integrated Development Environment) to run a Java code. BlueJ is the best IDE for the beginners, 
+            which is helpful to learn and practice the very basics of the programming language. The only thing you have to do is create a class with a name, 
+            and click on OK to create a class. After this you will get a new window where you can write your code in Java.<br><hr>
+            <h3 style="text-align: center;color: white;font-size: 4.5vmin;-webkit-text-fill-color: white;-webkit-text-stroke-color: rgb(0, 0, 0);-webkit-text-stroke-width:1px;">Install BlueJ</h3>
+              <p>
+                <ol id="immg">
+                  <li>To install BlueJ, visit it's official website <a style="color: rgb(243, 202, 168);" target="_blank" href="https://www.bluej.org/">https://www.bluej.org/</a>.<br><br>
+                    <img src="https://previews.dropbox.com/p/thumb/AAV94K16NTJAUQp4A7v5_mzKuBfElN9fHcN7cM5lxM7qAteO2a9PJJleDUShEXi30V-YuOLkKenoXz1Iapbw-h0HLQ0y25dKZ7p2fXOwqwbWjKVCR3jqrIP6blx5AW2IvRcvGAbufB3tcmkZxFND0iliLAUgaoOANgUQNS0FUwEGGXScWHYhV9rfyFUnN0BRlmmeYYKwnIDfZmNbNhMI8NQMMU4Njxh5L8JcXyCcrk4Yzw/p.png?size_mode=5" 
+                    alt="1st step"/>
+                  </li>
+                  <br>
+                  <li>
+                    Click on the name of your operating system to download BlueJ.<br><br>
+                    <img src="https://previews.dropbox.com/p/thumb/AAWEOebw-UVIZJPnaJbI1y2v9ihgdFLXTk3tHBWOTrLAS1OE8JLCP2JbKAys6EgokCljnazDoOh2xUgDwO6jy_ktEEb7Vv4_AZuRK9U1jaYMVQSfKMqAecYfnkzkvs3C_qZBg8JERnK_Dx06bvvNhNVlckiEYzLpPEP6LwaoG9JT7hQ13_YtXWKpw5lyo0yKLvIa3Xq21mLb6j5bu4wCw7leB-aX9IOMQUV6A0c3k8LFFg/p.png?size_mode=5" 
+                    alt="2nd step"/>
+                  </li>
+                  <br>
+                  <li>
+                    After it's downloaded, go to the download section and double click on the application installer.<br><br>
+                    <img src="https://previews.dropbox.com/p/thumb/AAUm0wEIEPODEjEO9YuSAiHPHRqdGuq_P1Pop6HnRPOR1TQDp6osgEAG6S_C5NC5klGfapGJQazEbugoMAnxrKCcL7iSD3zlKFe46Pa5WtClf1D9jGWk1Kyi-sUL2RGOTnh1ml4U8rJSJZmwZjXdaMswb2nTUnKj6R4_WnEM5TDC_22BnF0Jy9Rz3jCUc6nyZsanHdS9K1HcpomK6_mUFzYkcB5u_D-KOH3fmSmJxorGZg/p.png?size_mode=5" 
+                    alt="3rd step"/>
+                  </li>
+                  <br>
+                  <li>
+                    You will recieve this kind of window after you double click on the app. Click on next button to proceed.<br><br>
+                    <img src="https://previews.dropbox.com/p/thumb/AAVOkZY88LH2mt27BpNgefh083MOGGfFX8l_EjdatbWtLkwNBUgJdGlkUwvEWYh_TuQsnrMR_bY-GtaXz1s2SUyaRmFrCD5smK0sebjdGhJw5Soy_OXRVEbIdcm419wktgxTvDm1Z2ZvJ9WrKZAB4llfTamLHV6llXGciALBLMhANq9QvfKomP6gg2NORBPsyH98lStj9ZpHJITJaFnUf4C5GQ0eQm52VN_zYRju-GLrsQ/p.jpeg?size_mode=5" 
+                alt="4th step" style="width: 70vmin;height: 50vmin;"/>
+                  </li>
+                  <br>
+                  <li>
+                    Choose a scope to install the main folders of the application.<br><br>
+                    <img src="https://previews.dropbox.com/p/thumb/AAXHYCFkb6vkMOGri-N1QmaSAQ4ZkJVQFUaKY3Oj4H_7aVLdKDBCXITojZXO68Y8vX0XMy56-DeCiVUOzEmFWtjLez_HLi8i1mqHG1U39xJ5jODjL67I7viBFIMlB3IB-V2jVlWS6T8FWSb88ZxMZyNsfaH0pFP5eYS4WZm1oYYpKW0ChVUtY1YYHXBhXrZQx8kri1F2tZVavIeERR4MURiCD1Xbc4PrrWVK8PKp9C2x0Q/p.jpeg?size_mode=5" 
+                alt="5th step" style="width: 70vmin;height: 50vmin;"/>
+                  </li>
+                  <br>
+                  <li>
+                      Select items to be installed.<br><br>
+                      <img src="https://previews.dropbox.com/p/thumb/AAUknvJEQ0jCgt_J95rUlu0rIg8-ZLGC0DBc21tBTY9bhjy38uISu-7SbC9DxPs_924V94vKG-GDMfJQNGBGWgAnLAdmbOqC3D7u3qln7DXLKPfW_tlg9FxQk7DXk41LKi6vSYPtRcIKOV4RZc1HjFBP_vSz9dfF9jRd4mkYaJc0vwAo1EAiBsnkJrT2RIq3GFiCQPyRr_PotZkGUmvMtGHtaskMBh1Rb5Lcxo4Mg0LCOg/p.jpeg?size_mode=5" 
+                alt="6th step" style="width: 70vmin;height: 50vmin;"/>
+                    </li>
+                    <br>
+                  <li>
+                      Choose your path for installation.<br><br>
+                      <img src="https://previews.dropbox.com/p/thumb/AAVi9Lq_W3Oovc4JJtvUZYd1r1G2hOkoLVdp7WLQa2UPZTz302j0Wjuxos4DeeFmO3R9iiyfx8p5HAkGdlsQw_avpXP4lcyKPctU7Yrjhi-_5skSTVIpY3GHLVUix6pY3iz_4zpJSqBQGf5hpZ9dqRUUm8u2t2JGwHKWCl7YZgY6X8urnVW-0XGec4titw2PyxIriMtMEssda2aaHU9tgT_2bNq6tUs_ePSCmmgIfsiU5A/p.jpeg?size_mode=5" 
+                      alt="7th step" style="width: 70vmin;height: 50vmin;"/>
+                    </li>
+                    <br>
+                  <li>
+                      Now all is done! Click on Install button to intall everything required. This may take few minutes.<br><br>
+                      <img src="https://previews.dropbox.com/p/thumb/AAXtr8N-nOqVkE4bdfSAMFQQTQ3qZoOoUqd8SpztERKGR7VYidGGx-BTVTCkVvZKz0B-fvTikaQS32teHK12wIvxuRPDnoaBJydgN3zpn_N5EHS78kSxxnVIg47AN0aIBEuoG0TjxfuoLY0SS8Esv7pPlywMYLbXt7AlknbCVYLLkFfC1BG8HQtUAPl-bHO3XqaUT365LRCx9KNKK9ieVwMPDU3WhmyCK2zzLU_ShalArg/p.jpeg?size_mode=5" 
+                alt="8th step" style="width: 70vmin;height: 50vmin;"/>
+                    </li>
+                    <br>
+                    <li>
+                        Window will appear like this when installation goes on.<br><br>
+                        <img src="https://previews.dropbox.com/p/thumb/AAUfKG_QI1T2YUwRsxPbJQeA0lQ1toYifqx9M9dvJTXL_VgwSA3WZ7_rwIXf6oN1prRtpq2aAZoBY5C1yey_oEYZx5Qvws0Uyk2YiyOir3yKVW9b8w5jApIU18yzRpjM-2Ch1xbUFs28imeqKIga89yrtd3ezMG5_e--hfs0m0CKi0mDcL26n72_woevBYWZdD5wK1zRYpzJ0M5MEOZf2yMo01NF0wE1v18AJsK6HniSNQ/p.jpeg?size_mode=5" 
+                alt="9th step" style="width: 70vmin;height: 50vmin;"/>
+                      </li>
+                      <br>
+                    <li>
+                        Installation is done! Click on Finish button<br><br>
+                        <img src="https://previews.dropbox.com/p/thumb/AAUTAPUihIbmZmTy9itKp7ai4zJVbWv3y2RmT6c1Gl5F65yshgJp6yPT1dw06SjKqo3sFmovNtKgtTXBveMGXw9nQml8wdTBNoKquGiu0d3QtyZyymBYqrKVIKqKJzUKe7htqEfmu2r7OsTXHCxFV0Td8HbLP7PJKl-MeVa_bMbXCtB7bzS3eq-wZmHXqB6pl81imIPKjQjLMzna5jDm5xr1cGzKrOXpND7ge4oPUN8pxQ/p.jpeg?size_mode=5" 
+                alt="10th step" style="width: 70vmin;height: 50vmin;"/>
+                      </li>
+                </ol>
+              </p>
+              <hr>
+              <p>
+                <h3 style="text-align: center;color: white;font-size: 4.5vmin;-webkit-text-fill-color: white;-webkit-text-stroke-color: rgb(0, 0, 0);-webkit-text-stroke-width:1px;">Work on BlueJ</h3>
+                <p>
+                 <ol id="immg">
+                   <li>
+                     Open BlueJ like your open your other applications.<br><br>
+                     <img src="https://previews.dropbox.com/p/thumb/AAUNY_ksFpdxMYFpRMQlLs9MzxMLiEel1L9k_niGP0rEG81TJZaZtIbXwxlCrnIprPUqz2XJYoFR-nqv_nukAAnHpjQTks8sdASz92UvMGJFbiAntQB-O2L6xe_yxc8xZaBSOFT_lMgtmGx46U-1f-ixg_--M5d3q_AK-8ywlxlbLJr89OeSsCNAKj4ken9rCBYjidUD7HAzQ4gRd433bHnDnWBKPatFx_a-helM1jQYRw/p.png?size_mode=5" 
+                alt="11th step"/>
+                   </li>
+                   <br>
+                   <li>
+                     On the top-left side of your screen, click on Project and the click on New Project.<br><br>
+                     <img src="https://previews.dropbox.com/p/thumb/AAVuy7sdApfqklUxVv6HfvDUIfcNrtiKwKRGhVaYfA5b79p9y9IzrRzEH78ExKMxysVlTR48B3CwyBxa1icQopSmrCZ7d9ukPH_JqmJ5qAraDhve9VeUajSsdCwRnQeXCwZoM-LicilV_jx5KMcAncdvnDZbCNXdILyNJKvk0_70v5HYG7C4L-uPBH0ipZbHYGzZIpbCmjrg3ax5po68dgxLb4NEBsKikvJyTaIPHv4bhw/p.png?size_mode=5"
+                alt="12th step"/>
+                   </li>
+                   <br>
+                   <li>
+                     Create your project of any name to save your java programs in it.<br><br>
+                     <img src="https://previews.dropbox.com/p/thumb/AAXkK4_k7jE4zNBtCI7NyYbZlJQqjUCRWntxU7mZY9nm_olqwZrRs4ynQH5N_rAyMa_zdwZdKht0LCh5C4a9nu9A2DJeEjeKb9FMKy9RymBCYPLjCcDlnorsiTV_S-iEexzjMCpmebdHPzsnhe3MTvccEmNbLIEfnQKPkczrLss--wxVtJBMpZwYg1wYvurAezIdnhl8cG7SIBl_o7JFHiTgJOPKBRMNi2imdU8FhW63IA/p.png?size_mode=5"
+                     alt="13th step"/>
+                   </li>
+                   <br>
+                   <li>
+                     Click on New Class to create your first Java program.<br><br>
+                     <img src="https://previews.dropbox.com/p/thumb/AAUHiHJVDdompTEZH9TywTDGEWdmdYCPVGEBpufEcxABEElLQEfvewIJjH2CcI1b6WN9-1WFztozAmgYQsb8LOdkkwiZq14oLdynEHDPvqQoexn_Zo0A8PiMsS5eSnhEoCQXtGbSFWLGlxyDqi6-po6aOpzB2dvn0-NoAA5GK0AZbTD4DPR0hkV_OGGPXrTwkiqsQEBaZXldCA06zeJ8mNPt1QzES3GVbLzTVbUwcN5Jog/p.png?size_mode=5"
+                alt="14th step"/>
+                   </li>
+                   <br>
+                   <li>
+                     Name your class and select the class type as Class and Class language as Java.<br><br>
+                     <img src="https://previews.dropbox.com/p/thumb/AAUWGx-BYTAI339UoVeTLjF9ihrFsqoy24sDzB-V9317P8VfKZL7nE9CUaH25vFgWrMODWHDEf1ZIz_zkPDWqrt9oDJa-gGmITCIhs5tGrjKiZIsIg6vKVu14nskmxmNy4w8h7-bi9o9jvB2SyJpGagYxJeUmlPxcLYbEc-dI5mQ1c5UeR9XptMhOikH7bolmEyfdzyAGjdEqKX-lD1oBrEbm6p-iJ2MM9vM_WE5aum4XA/p.png?size_mode=5"
+                alt="15th step"/>
+                   </li>
+                   <br>
+                   <li>
+                     Your class is created. Now double click on it to open it.<br><br>
+                     <img src="https://previews.dropbox.com/p/thumb/AAXcwTq6cBQfbPLFk9_J50-CLqk5WXRlw3nzow1bEzD38VU57A0PdI-l9PVeLaP71f-w0eNwekoQRmSfhE22L5gaWA_DqR-4v9CZc400yo77RZKbTME70OhWKnOhGXpbsPUKD2ZeKBa0QQKDrkzkR-T1UwnXcC9qohNh-Y9DK67lE6K8nuk-EetjQtJr8AkOUaQscrQ6D3j7RWq58bdBoTF9XHDAEcPMDBrtoCERZzkW5w/p.png?size_mode=5"
+                alt="16th step"/>
+                   </li>
+                   <br>
+                   <li>
+                     After to open it, you will recieve a new window with some written codes. Select them all and delete so that you can write your own code.<br><br>
+                     <img src="https://previews.dropbox.com/p/thumb/AAUQuqCpMNdU7EkqAviR44sgGlxvHirvWgaZMY0ykow2pjwNWrumDJGLFarICts7sSwTsoNGMCoKdnGsVEh-dW3K1idUI0SAFa0mi_KPy5UnmTBrvLHdIEaRD2ES1qGqX4WkM12WxLMVljJBG9chYjQAKG0TQL3Z0lsX5nmlOqasWbZQrvB3wQtzAFY-SyN6vnxsl23MY9j1j7iIi6LbKNSgNPYvKdbs-5yIP7lGBAQkSw/p.png?size_mode=5"
+                alt="17th step"/>
+                   </li>
+                   <br>
+                   <li>
+                     Write your first program.<br><br>
+                     <img src="https://previews.dropbox.com/p/thumb/AAUJal8YjT5uArg3L7rLYlRdMblvc7kO6C9PlagdafMiYibBKmhjDiHCqwlUHYcdZ-P4Bnr_db7d6qIxW1n9NPZSiakOspq3RBwUwF9Vq4TgCeauxfDF-u7r8RHnNxr30VuKw8W2aNQNxzZ4JNQ5SV_uXea8cn_ClnPRNJUIJhd_JBLTW4CRzUcU7DPJZdtOqFFtsEJPy9SI7Bn_66N_LBubfNhyQOK_SwyCAMRBvQl1gg/p.png?size_mode=5"
+                alt="18th step"/>
+                   </li>
+                   <br>
+                   <li>
+                     After you are done writing your program, click on Compile button. The console will show the message, "No syntax error.", 
+                     which means, there's no syntax error in the code. After that, close the window.<br><br>
+                     <img src="https://previews.dropbox.com/p/thumb/AAUlqVHO6fvnoC8Y1-Ztg3RpUiSu3vbFGRQNQ5IVC5AWtFj5uobZwMSA9YzmoKh6HJmCWbpwDxGOFZjXawcQJk-7Nm7I6GEuJAzQ0IhY1cLEVI3d6q7Mk9tlQUpPegzBcneuZUqBwtmrVuoGEnvIXcHqohWu2SNN66ejFSjE8ZxXgGA6y4taOrTuJLWmfWVk2diVp_c-RdCQczhtc2EoS2lbwW09TF3uIi3pyXTdYDIYiw/p.png?size_mode=5"
+                alt="19th step"/>
+                   </li>
+                   <br>
+                   <li>
+                     Right click on the class tab and select "void main(String args[])" option and click on it.<br><br>
+                     <img src="https://previews.dropbox.com/p/thumb/AAU_6Sbd-Us22KSz_Hqc2xPIrAAx1lKXw9ihDzSZhAkTscX0iG4J6Fbs4t9kqevdahWnw06b6OwcMANnD0Kz5dPM4F5eM9wexYedRs4ZBciK8BnoC8gQIYusjswCuEpFNN0nye0hzz395Q7AMcUIqpfSPIK6eCpXOnZcl9Llw3M5VIqVS_7LZEzvaTK1wY6ConasMd_M3fajM_eUI_rKkP2NjZu1W9zo2i4vvoS_BWh0kg/p.png?size_mode=5"
+                alt="20th step"/>
+                   </li>
+                   <br>
+                   <li>
+                     A new window will appear. Click on OK.<br><br>
+                     <img src="https://previews.dropbox.com/p/thumb/AAUnbg-UCU77IF_CL583AOQWjVNWEg-30MVHrQIBHZx0WMFa9vSLpJtZk9I4jQ9CTEcO-Zg5lq2jfpG1wHRNRbNSr9B1ntJHy_6w_z6qYI-_MdbuUBS0Irkeu2Io_HBDH7hHwHHTQtXhKituIKgxVwlM4bgsfTU2nMxqOdlS2aw1j22GqDRkQT2w73OalvmHaU7svL8dfYMZieyso2PoAmNzwla-kb6CU8b4FmAE4bP4qQ/p.png?size_mode=5"
+                alt="21st step"/>
+                   </li>
+                   <br>
+                   <li>
+                     You will get the output on the Terminal Window.<br><br>
+                     <img src="https://previews.dropbox.com/p/thumb/AAVV8bF4mBvpLmL0tB5AfkDifx4G4xO9uh2TLkA_J6TBo-GLLmrG51Dp2K0v3ZPMqZDMM40TeT9DK1rUgJCcfGf42ZJLQ9pa7TW_i2lqhX3fxBHlNjwYxo5Fttc2N11_gD_ixoI7HbgUgLQIY6G4Da3m13h8NRCUKQOOdhnhGl2yZPCl71huMFmBbGjAC0izAlT1bMgeJkdvEMc5SUzvW5LDiSCLrsljSgc6vJdiD69OPQ/p.png?size_mode=5"
+                alt="22nd step"/>
+                   </li>
+                 </ol>
+              </p>
+            </p>
+        </div>
+        <div class="oopp"> <!--OOPs-->
+           
+        </div>
+    </body>
+</html>

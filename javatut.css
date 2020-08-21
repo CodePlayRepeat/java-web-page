@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand|Luckiest Guy|Fahkwang|Montserrat|Raleway|Nunito|Pacifico');
+body{
+    margin:0;
+    background-color: rgb(139,69,19);
+    padding-bottom: 10px;
+    overflow-x: hidden;
+}
+body::-webkit-scrollbar {
+    width: 1em;
+}
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(214, 131, 23, 0.3);
+    box-shadow: inset 0 0 6px rgba(214, 131, 23, 0.3);
+}
+#tbt td{
+   border-style: solid;
+   border-width: 1px;
+   border-color: white;
+   color: white;
+}
+#tbt tr td{
+    padding-left: 7px;
+}
+body::-webkit-scrollbar-thumb {
+    background:linear-gradient(30deg,rgb(139,69,19),rgb(223, 156, 125));
+    outline: 1px solid rgb(77, 44, 6);
+}
+#txg{
+    background: -webkit-linear-gradient(rgb(244,164,96),rgb(160,82,45));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#abbt{
+    display:none;
+    user-select: none;
+    text-align: center;
+    padding: 10vmax 10vmax 10vmax 10vmax;
+    -webkit-text-stroke-color:black;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 2px;
+    font-size: 3vmax;
+    letter-spacing: 0.500vmin;
+    font-family: 'Pacifico';
+}
+#navg{
+    color: white;
+    background-color: rgb(0, 0, 0);
+    margin: 0;
+    font-family: 'Montserrat';
+    position: sticky;
+    top: 0;
+}
+#secs{
+    display: inline;
+    list-style-type: none;
+    user-select: none;
+}
+#secs li{
+    display: inline-block;
+    padding: 2vmin 2vmax 2vmin 2vmax;
+    font-size: 2.7vmin;
+}
+#secs li:hover{
+    background-color: rgba(88, 87, 87, 0.575);
+    cursor: pointer;
+}
+#welcpage{
+    padding: 7vmin 0 5vmin 0;
+    color: white;
+    background: url('coffee.png'); /* 190vmin 120vmin*/
+}
+/*#welcpage h1{
+    -webkit-text-stroke-color:black;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 2px;
+}*/
+section p{
+    font-family: 'Raleway';
+}
+section h3{
+    font-family: 'Nunito';
+}
+#sec1:hover,#sec2:hover,#sec3:hover,#sec4:hover{
+    border-color: rgb(65, 61, 61);
+    box-shadow: 5px 5px 7px rgb(207, 152, 108);
+}
+section{
+    padding: 4vmin 4vmin 9vmin 4vmin;
+    margin: 0 0 3vmin 0;
+}
+#sec1,#sec2,#sec3,#sec4{
+    text-align: center;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255, 0.568);
+}
+.ddcs li{
+    cursor: pointer;
+    width: 200px;
+    list-style-type: square;
+    font-size: 3vmin;
+}
+.ddcs li:hover{
+    text-decoration: underline;
+}
+.ddcs li:active{
+    color: white;
+}
+#dv2{
+    padding: 1.5vmax 2vmax 0 2vmax;
+    user-select: none;
+}
+#btn{
+    text-align: center;
+    padding: 2vmin 0 2vmin 0;
+}
+#bttn{
+    text-align: center;
+    border-style: none;
+    width: 250px;
+    height: 70px;
+    font-size: 30px;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(233, 150, 56);
+    margin: auto;
+    border-radius: 10px;
+}
+#bttn:hover{
+    background-color: rgb(238, 162, 75);
+    box-shadow: 0 0 50px rgb(94, 73, 56);
+}
+#bttn:active{
+    transform: scale(1.1,1.1);
+}
+#dcs{
+    display:none;
+    user-select: none;
+}
+.jva{
+    display: none;
+}
+#immg img{
+    width: 90vmin;
+    height: 50vmin;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#immg li{
+    font-size:3vmin;
+    padding:0 50px 0 7px;
+    color: white;
+}
